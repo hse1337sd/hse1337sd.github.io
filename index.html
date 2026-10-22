@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ОМП Домашнее задание 2</title>
+<style>
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 24px 16px 48px;
+    font-family: "Georgia",serif;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(135deg, #ff0080, #7928ca, #2563eb, #06b6d4);
+    background-size: 300% 300%;
+    animation: bg 12s ease infinite;
+  }
+  @keyframes bg {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .rgb {
+    background: linear-gradient(90deg, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: 900;
+    animation: rgb 3s linear infinite;
+  }
+  @keyframes rgb {
+    to { background-position: 300% 0; }
+  }
+
+  .gifs {
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  .gifs img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #fff;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  ul { list-style: none; padding: 0; max-width: 520px; margin: 0 auto; }
+  li {
+    background: rgba(0, 0, 0, 0.45);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    padding: 14px 18px;
+    font-size: 1.15rem;
+    text-align: center;
+  }
+    .btn {
+    display: block;
+    padding: 10px 20px;
+    border: 3px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+
+</style>
+</head>
+<body>
+
+  <h1 class="rgb">ОМП ДОМАШНЕЕ ЗАДАНИЕ</h1>
+  <h1>Partasiuk Sergei</h1>
+  <div class="gifs">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHR5eHJqMG1jOG1zcGNrOWVkdXYyemlwbDd3NWJmY2w2MHprdXNpNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/y4nk5bgwpWL6T5Ax9y/giphy.gif" alt="gifka1">
+    <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bzBmcmFxaXJhZWkzM2RiMTV4NGZ2eXk5aDN5enNsbDk5ZnkwM2FjcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cl2kQwimrggxCQi7Ty/giphy.gif" alt="gifka2">
+  </div>
+
+  <h2 class="rgb">Мои достижения</h2>
+  <ul>
+    <li> Сделал свой первый сайт</li>
+	<li> c Ргб текстом и задним фоном</li>
+  </ul>
+
+  <h2 class="rgb"> Мои навыки</h2>
+  <ul>
+	  <li> язык HTML</li>
+	</ul>
+
+	<h2 class="rgb"> Интересный факт</h2>
+	<ul>
+		<a class="btn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"> В этом видео</a>
+	</ul>
+
+</body>
+</html>
